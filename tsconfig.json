@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "strict": true,
+        "module": "ES2022",
+        "moduleResolution": "Bundler",
+        "lib": ["DOM", "ES2023"]
+    }
+
+}
