@@ -1,0 +1,52 @@
+
+.inputbar {
+  display: flex;
+  width: 60%;
+  /* background-color: rgb(244, 236, 236); */
+  /* padding: 5px 30px; */
+  margin: auto;
+  /* background-color: #fff; */
+  background: #a7c8e7;
+}
+
+/* .user-word{
+    width: 50%;
+    padding:10px;
+    margin-left: 20%;
+} */
+.button {
+  border-radius: 3px;
+  padding: 10px;
+  margin-left: 4px;
+}
+.timer-box {
+  width: 10%;
+  /* background-color: darkslategray; */
+  background: #3c4d5c;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-size: large;
+}
+.refresh {
+  width: 4%;
+  padding: 10px;
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+.user-word {
+  border-top: 1px solid #575757;
+  height: 50px;
+  border-right: 1px solid #6b7a89;
+  border-bottom: 1px solid #70869b;
+  border-left: 1px solid #525a62;
+  font-size: 2em;
+  line-height: 1em;
+  /* background: url(https://img.10fastfingers.com/img/layout/sprite-main.png) 0px -60px no-repeat; */
+  font-family: Times New Roman, Times, serif;
+  color: #333;
+  background-color: white;
+  margin-left: 20%;
+}

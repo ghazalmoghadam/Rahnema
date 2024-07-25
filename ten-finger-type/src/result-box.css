@@ -1,0 +1,51 @@
+.result-container{
+  border: 2px black;
+  /* border-radius: 5px;
+  border-radius: 3px;
+  background-color: white;
+   display: none; 
+  margin: 20px 30px;
+  width: 15%; */
+  margin: 20px 30px;
+
+  
+  
+  width: 280px;
+  float: left;
+ 
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.428571429;
+}
+.wpm{
+ color: darkgreen;
+ text-align: center;
+ padding: 0px 15px;
+ border: 1px solid #ddd;
+}
+
+.dark-row{
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  padding: 0px 15px;
+}
+.light-row{
+  border-bottom: 1px solid #ddd;
+  padding: 0px 15px;
+}
+
+.result-box-header{
+    color: white;
+    background: #4d7f9f;
+    font-size: 16px;
+    padding: 8px 15px;
+    margin: 0px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #333333;
+    display: flex;
+}
+.fakeLink{
+  color: white;
+  margin-left: 20px;
+}

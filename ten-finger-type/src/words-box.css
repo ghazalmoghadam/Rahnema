@@ -1,0 +1,55 @@
+
+.words-container {
+    font-size: 2.2rem;
+    line-height: 1.6;
+    width: 60%;
+    height: calc(2lh + 1rem);
+    overflow-y: hidden;
+    padding: 0.5rem 1rem;
+    margin: 4rem auto;
+    overflow: hidden;
+    border: 1px solid #8eb6d8;
+    /* font-family: Times New Roman, Times, serif; */
+    font-family: monospace;
+    background-color: white;
+  }
+  
+  .words {
+    position: relative;
+  }
+  
+  .hidden-text {
+      position: absolute;
+      visibility: hidden;
+      z-index: -1;
+      left: 100%;
+      width: auto;
+      height: auto;
+  }
+  
+  /* > direct child selector */
+  .words > span {
+    border-radius: 0.1em;
+  }
+  
+  /* .words > .unchecked {
+      color: black;
+  } */
+  .words > .correct {
+      color: green;
+  }
+  .words > .wrong {
+      color: red;
+  }
+  
+  .words > .current {
+    color: balck;
+    background-color: rgb(217, 217, 217);
+  }
+  
+  .words > .typo {
+    background-color: red;
+    color: white;
+    -webkit-flex: 
+    flex:  
+  }

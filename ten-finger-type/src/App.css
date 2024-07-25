@@ -1,0 +1,22 @@
+@import 'bootstrap';
+@import 'bootstrap-icons';
+
+body {
+  /* background-color: aqua; */
+  background-color: #add5ff;
+}
+
+#app {
+  background-color: #c1ddfb;
+  height: 40%;
+  padding: 3% 0% 20%;
+  margin: 1% 5% 0%;
+}
+
+.result-show{
+  display: block;
+}
+
+.result-hide{
+  display: none;
+}
