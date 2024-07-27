@@ -1,0 +1,29 @@
+.board{
+  margin: 5% auto;
+  height: 500px;
+  width: 800px;
+   box-sizing: border-box; /*? */
+  border:1px solid #000;
+}
+.row{
+  border: 1px solid black;
+  background-color: gray;
+  display: flex;
+
+  height: 25px;
+  width:800px;
+}
+.col{
+  border: 1px solid black;
+  height: 25px; 
+  width:25px;
+}
+.cell-empty{
+  background-color: rgb(31, 30, 30);
+}
+.cell-snake{
+  background-color: chartreuse;
+}
+.cell-apple{
+  background-color: red;
+}
