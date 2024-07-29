@@ -1,8 +1,9 @@
+
 .board{
-  margin: 5% auto;
+  margin: 4% auto;
   height: 500px;
   width: 800px;
-   box-sizing: border-box; /*? */
+   box-sizing: border-box; 
   border:1px solid #000;
 }
 .row{
@@ -27,3 +28,4 @@
 .cell-apple{
   background-color: red;
 }
+

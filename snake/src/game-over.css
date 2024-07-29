@@ -1,0 +1,8 @@
+.game-over{
+    border: 5px solid rgb(187, 12, 12);
+    width: 15%;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    color: darkred;
+  }
